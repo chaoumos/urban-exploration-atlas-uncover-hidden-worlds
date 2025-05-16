@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Home - Urban Exploration Atlas: Uncover Hidden Worlds" description="Discover hidden gems! An online hub for sharing and discovering fascinating urban exploration locations and tips worldwide.">
+  <section class="bg-gray-100 dark:bg-gray-900 py-20">
+    <div class="container mx-auto px-4">
+      <h1 class="text-5xl md:text-6xl font-bold text-gray-900 dark:text-gray-100 text-center mb-8">Uncover Hidden Worlds</h1>
+      <p class="text-lg md:text-xl text-gray-700 dark:text-gray-300 text-center mb-12">
+        Welcome to the Urban Exploration Atlas, your guide to the forgotten corners of the world. Explore user-submitted locations, discover hidden histories, and share your own adventures.
+      </p>
+      <div class="flex justify-center">
+        <a href="/locations" class="bg-primary text-white py-3 px-6 rounded-md text-lg hover:bg-opacity-90 transition-colors">
+          Explore Locations
+        </a>
+      </div>
+      <div class="mt-16">
+        <img
+          src="https://placehold.co/1200x600.png"
+          alt="Gritty urban landscape"
+          class="rounded-lg shadow-xl mx-auto"
+          data-ai-hint="urban exploration, abandoned building, gritty"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-semibold text-gray-900 dark:text-gray-100 text-center mb-8">Featured Locations</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+          <img src="https://placehold.co/400x300.png" alt="Abandoned Factory" class="w-full h-48 object-cover" data-ai-hint="abandoned factory, urban decay"/>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100">Abandoned Factory</h3>
+            <p class="text-gray-600 dark:text-gray-300">Explore the remnants of a once-thriving industrial complex.</p>
+            <a href="#" class="text-primary hover:underline">View Details</a>
+          </div>
+        </div>
+
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+          <img src="https://placehold.co/400x300.png" alt="Subway Tunnels" class="w-full h-48 object-cover" data-ai-hint="subway tunnels, underground exploration"/>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100">Subway Tunnels</h3>
+            <p class="text-gray-600 dark:text-gray-300">Descend into the depths of the city's hidden transportation network.</p>
+            <a href="#" class="text-primary hover:underline">View Details</a>
+          </div>
+        </div>
+
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+          <img src="https://placehold.co/400x300.png" alt="Rooftop View" class="w-full h-48 object-cover" data-ai-hint="rooftop view, city skyline"/>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100">Rooftop View</h3>
+            <p class="text-gray-600 dark:text-gray-300">Capture breathtaking views from the city's highest vantage points.</p>
+            <a href="#" class="text-primary hover:underline">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
